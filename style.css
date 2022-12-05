@@ -1,0 +1,303 @@
+*{
+    margin: 0;
+    padding: 0px;
+    overflow: hidden;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-family: 'Zen Dots', cursive;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital@1&family=Zen+Dots&display=swap');
+
+.maincontainer {
+        background-color: rgb(255, 255, 255);
+        height: 30vh;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+
+.maincontainer h1 {
+    justify-content: center;
+    text-align: center;
+}
+
+.textbox {
+    justify-content: center;
+    left: 50%;
+    width: 30vh;
+    transform: translate(-50%,-50%);
+    border-radius: 7px;
+    text-align: center;
+    position: absolute;
+    height: 40px;
+    top: 80px;
+    font-size: 15px;
+    font-weight: 700;
+    box-shadow: 4px 4px 7px rgb(80, 41, 255);;
+}
+
+.submitdiv {
+    position: absolute;
+    top: 150px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.buttondiv {
+    position: absolute;
+    top: 220px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.Submit {
+    height: 45px;
+    width: 90px;
+    background-color: #4CAF50;
+    transition-duration: 0.4s;
+    font-size: 17px;
+    font-weight: 700;
+    border-radius: 10px;
+    color: white;
+    border-style: none;
+}
+
+.nextpage {
+    height: 45px;
+    width: 100px;
+    background-color: rgb(22, 22, 170);
+    transition-duration: 0.4s;
+    font-size: 17px;
+    font-weight: 700;
+    border-radius: 10px;
+    color: white;
+    border-style: none ;
+}
+
+.nextpage:hover {
+    background-color: #bdd823;
+    cursor: pointer;
+    color: #000;
+}
+
+.Submit:hover {
+    background-color: rgb(238, 184, 34);
+    cursor: pointer;
+    color: #000;
+    
+}
+
+@media only screen and (min-width: 425px) {
+.mainphotos {
+    background-color: rgb(255, 255, 255);
+    height: 70vh;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 50% 50%;
+    border: 10px solid rgb(255, 255, 255);
+    background-repeat: no-repeat;
+    float: center;
+    position: relative;
+    gap: 10px;
+    box-shadow: 5px 5px black;
+}
+
+.s-1 {
+    position: relative;
+    text-align: center;
+    font-size: 30px;
+    background-color: rgb(37, 37, 168);
+    height: 45px;
+    color: white;
+}
+
+.a1:hover {
+    transform: scale(1.2);
+    cursor: grab;
+}
+.a2:hover {
+    transform: scale(1.2);
+    cursor: grab;
+}
+.a3:hover {
+    transform: scale(1.2);
+    cursor: grab;
+}
+.a4:hover {
+    transform: scale(1.2);
+    cursor: grab;
+}
+.a5:hover {
+    transform: scale(1.2);
+    cursor: grab;
+}
+.a6:hover {
+    transform: scale(1.2);
+    cursor: grab;
+}
+.a7:hover {
+    cursor: grab;
+    transform: scale(1.2);
+}
+.a8:hover {
+    transform: scale(1.2);
+    cursor: grab;
+}
+
+.a1 {
+    background-color: pink;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.a2 {
+    background-color: yellow;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.a3 {
+    background-color: green;
+    border-radius: 10px;
+    transition: 0.5s;
+
+}
+.a4 {
+      background-color: rgb(250, 244, 244);
+      border-radius: 10px;
+      transition: 0.5s;
+}
+
+.a5 {
+      background-color: rgb(66, 15, 15);
+      border-radius: 10px;
+      transition: 0.5s;
+}
+
+.a6 {
+    background-color: rgb(255, 100, 172);
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.a7 {
+    background-color: rgb(196, 78, 78);
+    border-radius: 10px;
+    transition: 0.5s;
+}   
+
+.a8 {
+    background-color: rgb(46, 223, 69);
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+
+.a11,.a22,.a33,.a44,.a55,.a66,.a77,.a88 {
+    height: 100%;
+    width: 100%;
+
+}
+}
+
+@media only screen and (max-width: 425px) { 
+
+    .s-1 {
+        position: relative;
+        text-align: center;
+        font-size: 20px;
+        background-color: rgb(37, 37, 168);
+        height: 35px;
+        color: white;
+    }
+    .mainphotos {
+        background-color: rgb(255, 255, 255);
+        height: 50vh;
+        display: grid;
+        grid-template-columns: 33.3% 33.3% 33.3%;
+        grid-template-rows: 50% 50%;
+        border: 5px solid rgb(255, 255, 255);
+        background-repeat: no-repeat;
+        position: relative;
+        gap: 5px;
+    }
+    .textbox {
+        justify-content: center;
+        left: 50%;
+        width: 30vh;
+        transform: translate(-50%,-50%);
+        border-radius: 7px;
+        text-align: center;
+        position: absolute;
+        height: 40px;
+        top: 120px;
+        font-size: 15px;
+    }
+    
+    .submitdiv {
+        position: absolute;
+        top: 180px;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        display: flex;
+        flex-direction: row;
+        gap: 50px;
+    }
+    
+    .buttondiv {
+        position: absolute;
+        top: 230px;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        display: flex;
+        flex-direction: row;
+        gap: 50px;
+    }
+    
+    .a1 {
+        background-color: pink;
+        border-radius: 10px;
+        
+    }
+    
+    .a2 {
+        background-color: yellow;
+        border-radius: 10px;
+    }
+    .a3 {
+        background-color: green;
+        border-radius: 10px;
+    
+    }
+    .a4 {
+          background-color: rgb(250, 244, 244);
+          border-radius: 10px;
+    }
+    
+    .a5 {
+          background-color: rgb(66, 15, 15);
+          border-radius: 10px;
+    }
+    
+    .a6 {
+        background-color: rgb(255, 100, 172);
+        border-radius: 10px;
+    }
+    .a7 {
+        background-color: rgb(196, 78, 78);
+    }
+    
+    .a8 {
+        background-color: rgb(46, 223, 69);
+    }
+    
+.a11,.a22,.a33,.a44,.a55,.a66,.a77,.a88 {
+        height: 100%;
+        width: 100%;
+    
+    }
+    }

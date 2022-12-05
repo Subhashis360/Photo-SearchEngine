@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Search</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="maincontainer">
+            <h1 class="s-1">Search Photo as Your Wish..</h1>
+            <br>
+                <input type="text" class="textbox" id="textbox" placeholder="search me...">
+            <br>
+            <br>
+            <div class="submitdiv">
+                <button id="Submit" class="Submit" onclick="clicked()">SEARCH</button>
+            </div>
+            <div class="buttondiv" >
+                <button id="nextpage" class="nextpage" onclick="prevpage()"> Prev Page </button>
+                <h1 id="currentpage">0</h1>
+                <button id="nextpage" class="nextpage" onclick="nextpage()"> Next Page </button> 
+            </div>
+            
+    </div>
+    <div class="mainphotos" display="hidden">
+        <div class="a1">
+            <img class="a11" id="a11" src="new.gif" alt="">
+        </div>
+        <div class="a2">
+            <img class="a22" id="a22" src="new.gif" alt="">
+        </div>
+        <div class="a3">
+            <img class="a33" id="a33" src="new.gif" alt="">
+        </div>
+        <div class="a4">
+            <img class="a44" id="a44" src="new.gif" alt="">
+        </div>
+        <div class="a5">
+            <img class="a55" id="a55" src="new.gif" alt="">
+        </div>
+        <div class="a6">
+            <img class="a66" id="a66" src="new.gif" alt="">
+        </div>
+        <div class="a7">
+            <img class="a77" id="a77" src="new.gif" alt="">
+        </div>
+        <div class="a8">
+            <img class="a88" id="a88" src="new.gif" alt="">
+        </div>
+    </div>
+    
+<script src="app.js"></script>
+</body>
+</html>
